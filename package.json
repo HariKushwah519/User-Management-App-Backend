@@ -1,0 +1,28 @@
+{
+  "name": "user-management-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HariKushwah519/User-Management-App-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/HariKushwah519/User-Management-App-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HariKushwah519/User-Management-App-Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}
